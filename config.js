@@ -10,14 +10,14 @@ var config = {};
 
 //These are the names of bot, prefix for each command & other properties for your server, all fields required.
 config.botName = "SwiftRoulette";
-config.prefix = "$";
-config.serverName = "";
-config.text_channelName = "";
-config.voice_channelName = "";
+config.prefix = ">>";
+config.serverName = "bot testing";
+config.text_channelName = "general";
+config.voice_channelName = "raiding";
 
 //Generate your own encryption key and insert here, DO NOT CHANGE ONCE STARTED
 //otherwide data will be "corrupt" and will be overwritten with fresh data.
-config.encryptionKey = "";
+config.encryptionKey = "1100354821";
 
 //These are the names of the files that will store all player/history data, no need to change these
 config.fileNamePlayers = "playersBank.csv";
@@ -26,7 +26,7 @@ config.fileNameHistory = "bettingHistory.csv";
 config.encryptedHistory = "encryptedHistory.dat";
 
 //Insert your Bot Token HERE
-config.botToken = "";
+config.botToken = "NDU2NTczNDU4Mjk0Mzc0NDIx.DgMgrw.uJ9zvi7ne3L3GIzprmS1hG1krQo";
 
 //How much money each user gets
 config.bankRoll = 1000000;
